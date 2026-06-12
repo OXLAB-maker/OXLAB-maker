@@ -87,7 +87,7 @@ MEM="512MB"
 STACK=("php" "vue3" "js" "linux" "docker" "mysql" "tailwind" "nginx")
 FOCUS="build > talk"
 
-```
+``` 
 
 ## 🧑‍💻 Who am I
 
