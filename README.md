@@ -77,37 +77,67 @@ const OXLAB = {
 
 ## 🖥️ System Overview
 
-<div>
-<pre>
-oxlab@system:~$ htop --user Pavel
+```bash
+# htop --user Pavel
+USER="Pavel"
+ROLE="Maker"
+CPU="80%"
+MEM="512MB"
 
-USER      ROLE        CPU   MEM
-Pavel     Maker       80%   512MB
-----------------------------------
-STACK: php, vue3, js, linux, docker, mysql, tailwind, nginx
-FOCUS: build > talk
-</pre>
-</div>
+STACK=("php" "vue3" "js" "linux" "docker" "mysql" "tailwind" "nginx")
+FOCUS="build > talk"
+
+```
 
 ## 🧑‍💻 Who am I
 
-<div>
-<pre>
-$ ps aux | grep developer
+```json
+{
+  "developer": [
+    {
+      "id": "001",
+      "type": "origin",
+      "status": "running",
+      "info": "born in Czech Republic"
+    },
+    {
+      "id": "002",
+      "type": "hobbies",
+      "status": "idle",
+      "info": "gaming | servers | 3D printing"
+    },
+    {
+      "id": "003",
+      "type": "mindset",
+      "status": "running",
+      "info": "build > talk"
+    },
+    {
+      "id": "004",
+      "type": "coffee",
+      "status": "active",
+      "info": "required for all processes"
+    }
+  ]
+}
 
-pavel      001   origin     running   born in Czech Republic
-pavel      002   hobbies    idle      gaming | servers | 3D printing
-pavel      003   mindset    running   build > talk
-pavel      004   coffee     active    required for all processes
-</pre>
-<pre>
-$ ps aux | grep oxlab
+```
 
-pavel   100  taskion     running   released & in production
-pavel   101  claimpilot  running   handling accident reports
-pavel   102  oxcalc      running   slicing & pricing engine
-</pre>
-</div>
+```bash
+# OXLAB processes
+taskion_id="100"
+taskion_status="running"
+taskion_info="released & in production"
+
+claimpilot_id="101"
+claimpilot_status="running"
+claimpilot_info="handling accident reports"
+
+oxcalc_id="102"
+oxcalc_status="running"
+oxcalc_info="slicing & pricing engine"
+
+```
 
 <hr />
 
