@@ -70,7 +70,7 @@ Under the **OXLAB** label I create tools that are simple, fast and fully self‑
 const OXLAB = {
   focus: ["self-hosted tools", "clean UI", "practical applications"],
   prefers: ["full control", "no vendor lock-in", "reasonable simplicity"],
-  frontend: ["Vue 3", "Tailwind CSS", "vanilla JS"],
+  frontend: ["Vue 3", "Tailwind CSS"],
   backend: ["PHP", "MySQL"],
 };
 ```
@@ -136,6 +136,10 @@ claimpilot_info="handling accident reports"
 oxcalc_id="102"
 oxcalc_status="running"
 oxcalc_info="slicing & pricing engine"
+
+oximage_id="103"
+oximage_status="running"
+oximage_info="fast batch photo processing"
 
 ```
 
